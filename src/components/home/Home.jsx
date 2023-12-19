@@ -1,10 +1,13 @@
 import React from 'react'
-import { Navbar } from '../common/navbar/Navbar'
+import Hero from './Hero/Hero'
+import { Footer, Navbar } from '../common'
 
 export const Home = () => {
   return (
     <div>
       <Navbar />
+      <Hero />
+      <Footer />
     </div>
   )
 }

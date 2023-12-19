@@ -1,0 +1,10 @@
+.commonButton {
+    background: var(--googleBlue);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}

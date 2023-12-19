@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { data } from '../../../data/NavbarList'
-export const Navbar = () => {
+export default function Navbar() {
   function createNavbarList() {
     return data.map(function (item) {
       return <a href={item.link} key={item.id}><li>{item.listitem}</li></a>

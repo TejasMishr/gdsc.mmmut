@@ -4,7 +4,10 @@
 }
 
 :root {
-  --footerBack: #292c2f;
+  --footerBackground: #292c2f;
+  --text: #202124;
+  --lightText: #676C72;
+  --googleBlue: #1A73E8;
 }
 
 * {

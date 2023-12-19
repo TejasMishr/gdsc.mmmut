@@ -5,12 +5,19 @@
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
 }
 
+.navbar img {
+    width: 150px;
+}
+
 .wrapper {
     width: 1200px;
     margin: auto;
+    padding: 1rem 0;
+}
+
+.navbar .wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
 }
 
 .navbar ul {
