@@ -2,6 +2,7 @@ import './Footer.css'
 export default function Footer() {
     return <footer>
         <div className="wrapper">
+            
             <div id='footerLogo'>
                 <img src="/Logo.svg" alt="logo" />
             </div>
@@ -34,9 +35,13 @@ export default function Footer() {
                         <i class="fa-brands fa-youtube"></i>
                     </a>
                 </div>
+               
             </div>
+            
         </div>
+        
         <div className="footerLine">
+          
         </div>
         <div className='copy'>
             <span>&copy; 2023 GDSC MMMUT</span>
