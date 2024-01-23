@@ -1,0 +1,16 @@
+.main{
+    width: 100%;
+    background: rgb(158, 158, 246);
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+}
+.gif{
+    position:relative;
+bottom: 0;
+width: auto;
+height: 20rem;
+left: 23rem;
+z-index: 2;
+}

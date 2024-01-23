@@ -15,6 +15,7 @@ footer .wrapper {
 
 footer .wrapper div {
     width: calc(100% / 3);
+    display:flex;
 }
 
 .footerLine {
@@ -99,3 +100,4 @@ footer p {
 .socialIconsContainer i:hover {
     color: var(--googleBlue);
 }
+
