@@ -1,7 +1,8 @@
 import Button from '../../common/button/Button'
 import './Hero.css'
 export default function Hero() {
-    return <div className='hero'>
+    return 
+    <div className='hero'>
         <img className='heroleft' src='heroleft.png' alt='heroleft' />
         <img className='heroright' src='heroright.png' alt='heroright' />
         <div className="wrapper">
