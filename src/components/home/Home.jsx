@@ -82,7 +82,6 @@ export const Home = () => {
         <Route exact path="/contact" element={<Contact/>} />
         <Route exact path="/event" element={<Event/>} />
         <Route path="*" element={<Notfound/>} />
-     
       </Routes>
      
 

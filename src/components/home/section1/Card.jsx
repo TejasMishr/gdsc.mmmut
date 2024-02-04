@@ -20,10 +20,7 @@ function Card() {
           <img src="image1/4right.svg" alt="image1" />
         <img src="image1/4left.svg" alt="image1" />
         
-        </div> <div>
-
-<img src="image1/gif.gif" alt="" className='gif' />
-</div>
+        </div> 
       
       </div>
     </div>
