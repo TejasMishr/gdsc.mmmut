@@ -3,7 +3,7 @@ import "./Team.css";
 function Team() {
   return (
     <div>
-      <h1>team page here</h1>
+      <h1>Jyoti your team page goes here</h1>
     </div>
   )
 }
