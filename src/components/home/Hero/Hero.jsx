@@ -1,7 +1,11 @@
 import Button from '../../common/button/Button'
 import './Hero.css'
+import Card from '../section1/Card'
+
 export default function Hero() {
-    return <div className='hero'>
+    return (
+<>
+    <div className='hero'>
         <img className='heroleft' src='heroleft.png' alt='heroleft' />
         <img className='heroright' src='heroright.png' alt='heroright' />
         <div className="wrapper">
@@ -12,4 +16,7 @@ export default function Hero() {
             <img src="image1/homegif.gif" className='gif2' alt="gif2" />
         </div>
     </div>
+    <Card/>
+    </>
+    )
 }   
