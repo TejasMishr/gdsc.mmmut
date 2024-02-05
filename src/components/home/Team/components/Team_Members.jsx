@@ -17,7 +17,7 @@ const Team_Members = (props) => {
             <h3>{props.name}</h3>
             <p>{props.profession}</p>
           </div>
-          <div className="d-flex justify-content-center">
+          <div className="social">
             {props.FbLink && (
               <div>
                 <a className="social_media" href={props.FbLink} target="_black">

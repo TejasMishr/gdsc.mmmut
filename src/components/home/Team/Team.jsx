@@ -1,11 +1,46 @@
-import React from 'react'
-import "./Team.css";
-function Team() {
-  return (
-    <div>
-      <h1>Jyoti your team page goes here</h1>
-    </div>
-  )
-}
+import React from "react";
+import Footer from "../../common/footer/Footer";
+import "../Team/Team.css";
+import MembersData from "./Team_info/MemberInfo";
+import Team_Members from "./components/Team_Members";
 
-export default Team
+export default function Team() {
+  const team = (member, index) => {
+    return (
+      //team structure
+      <Team_Members
+        img={member.img}
+        name={member.memberName}
+        profession={member.profession}
+        FbLink={member.FbLink}
+        TwitterLink={member.TwitterLink}
+        InstaLink={member.InstaLink}
+        GithubLink={member.GithubLink}
+        LinkedinLink={member.LinkedinLink}
+      />
+    );
+  };
+
+  return (
+    <>
+      <div id="egg">
+        <div className="container contact_container" id="star-five ">
+          <h2 className="text-center custom_heading">Our Team</h2>
+          <div className="border_animation"></div>
+          <p className="text-center">
+            Crafted by the Learners, Tailored for the Explorers
+          </p>
+
+          {/* // render team mem, details // */}
+          <div className="container">
+            <div className="row justify-content-center custom_member">
+              {MembersData.map(team)}
+            </div>
+            {/* <hr style="position : relative;"></hr> */}
+          </div>
+        </div>
+        {/* <Footer /> */}
+      </div>
+    </>
+  );
+}
